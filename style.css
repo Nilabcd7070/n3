@@ -1,0 +1,28 @@
+﻿  body{  color:pink;
+    background:blue;
+  }
+
+h1{
+  color:red;
+background-color:#081E77;
+    float:center;
+}
+   a:link{
+   color:red;
+   background-color:#CC786D;
+   text-decoration:none;
+   border-radius:5px;
+  text-align:right;
+   }
+   a:hover{
+     color:#CC6666;
+     border-radius:5px ;
+     text-align:right;
+   }
+div{
+ color:#9acacc;
+ border-radius:5px;
+    background-color:#669999;
+    color:#0D0047;
+    text-align:right;
+}

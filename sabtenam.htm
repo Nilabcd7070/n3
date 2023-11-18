@@ -1,0 +1,102 @@
+﻿<!DOCTYPE HTML>
+
+<html>
+
+<head>
+  <title>ثبت نام</title>
+</head>
+
+<body>
+<form>
+select month:
+<input type="month" name="s-month"/><br>
+<br>
+select
+<input type="number" name="s-namber" min="0" max="20" step="1" value="0" /><br>
+<br>
+select
+<input type="range" name="s-range" min="0" max="20" step="2" value="0" /><br>
+<br>
+search google:
+<input type="search" name="s-search" /> <br>
+<br>
+  tel number(not suport)
+  <input type="tel" name="s-tel"/><br>
+  <br>
+  time
+  <input type="time" name="s-time" /><br>
+  <br>
+  url
+  <input type="url" name="s-url" /><br>
+  <br>
+  week
+  <input type="week" name="s-week" /><br>
+  <br>
+  datalist:
+  <input list="datalist-1" name="s-list" size="4" />
+  <datalist id="datalist-1">
+  <option value="ديپلم"></option>
+  <option value="فوق ديپلم"></option>
+  <option value="ليسانس"></option>
+  <option value="فوق ليسانس"></option>
+  </datalist><br>
+  <br>
+  select color:<br>
+  <input type="radio" name="color" value="green" checked="checked"/> سبز
+  <input type="radio" name="color" value="red"/>قرمز
+  <input type="radio" name="color" value="blue"/> آبي
+  <br>select car <br>
+
+  <input type="radio" name="car" value="1" checked="checked"/> bmw
+  <input type="radio" name="car" valye="2" /> benz
+  <input type="radio" name="car" value="3"/> audi <br>
+  <br>
+  <input type="chekbox" name="opt" value="b" checked="checked"/>    نقره اي
+  <input type="chekbox" name="opt" value="w" />       سياه
+  <input type="checkbox" name="opt" value"s" />     سفيد <br>
+  <br>
+  <select name="companytype" size="3">
+  <option value="سهامي خاص">شركت سهامي خاص
+  <option value="محدود مسوليت"> شركت با مسوليت محدود
+  <option value="عام سهامي">   شركت سهامي عام
+  </select>
+
+  <form method="post" action="test.aspx">
+  <p align=right>
+  <input type="text" name="companyname" /> :نام شركت <br>
+   <br>: نوع شركت  <br>
+     <select name="companytype" >
+  <option value="سهامي خاص">شركت سهامي خاص
+  <option value="محدود مسوليت"> شركت با مسوليت محدود
+  <option value="عام سهامي">   شركت سهامي عام
+  </select>
+    <br>
+  <input type="chekbox" name="w" value="t1" /> :صنعت
+  <input type="chekbox" name="w" value="t2" /> : خدمات
+  <input type="checkbox" name="w" value"t3" /> :  كشاورزي
+  </p>
+  <br>
+  <br>
+  password:<input type="password" name="pas" /><br>
+
+  showpassword:<input type="text" />   <br>
+<fieldset>
+<legend>   required</legend>
+  <input type="text" required="required" />  <br>
+  <textarea name="text1" id="" cols="30" rows="10" required="required"></textarea>
+  <br> <input type="submit" />
+</fieldset><br>
+<br>
+<br>
+
+<input type="text" placeholder="نام خود را وارد كنيد"style="direction:rtl"/>    </br></br>
+نام خانوادگي:<input type="text" />
+<br>
+<br>
+   <input type="text" placeholder="نام خود را وارد كنيد"style="direction:rtl"/>    </br></br>
+    <input type="text" placeholder="نام خانوادگي"/>
+
+</form>
+</body>
+
+</html>
